@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 98vh;
+   
+    background-color: gray;
+}
+.devinfo{
+    /* background-color: antiquewhite;
+    height: 75vh;
+    position: relative;
+    right: 3px;
+    bottom: 77px; */
+    
+}
+.sidebar{
+   background-color: rgb(8, 48, 52);
+   /* background-color: rgb(62, 8, 38); */
+   width: 20vw;
+   height: 98vh;
+   /* padding: 0;
+   margin-top: 0; */
+
+}
+
+.opt{
+    color: rgb(237, 216, 189);
+}
+.sidebar nav{ 
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    /* background-color: gray; */
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
+.info-container{
+    /* background-color: rgb(236, 238, 120); */
+    height: 78vh;
+    width: 70vw;
+    margin:0;
+    background-color: antiquewhite;
+    height: 75vh;
+    position: relative;
+    top: 65px;
+   /* display: flex;
+   justify-content: space-around; */
+    
+}
+.devpic img {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:75vh;
+    position: relative;
+    bottom: 297px;
+    left: 644Px;
+    
+}
+#dp{
+    display: inline-block;
+}
+
+
+
+.devinfo{
+     /* display: flex;
+     justify-content: center;
+     flex-direction: column;
+    
+    left: 130px;
+    top: 35px; */
+    position: relative;
+    top: 85px;
+    left: 80px;
+    
+}
+.name{
+    line-height: 25px;
+}
+.skills{
+   
+}
+@font-face{
+    font-family: hi;
+    src: url(Voguella.ttf);
+}
+
+.hello{
+   font-size: 68px; 
+   font-family: hi;
+}
+.name{
+   font-size: 42px;
+   font-family: hi;
+}
+@font-face {
+    font-family: myfont;
+    src: url('Charlotte.otf');
+   }
+
+span{
+    font-family: myfont;
+    
+}
+ /* @font-face {
+font-family: two;
+src: url('Kimberlyn.ttf');
+ } */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.skills{
+font-size: 20px;
+font-family: hi; 
+line-height: 45px;
+}
+.more{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  width: 450px;
+}
+.buttons button{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.buttons{
+    display: block;
+    line-height: 45px;
+    
+}
+.cv{
+    background-color: rgb(8, 48, 52);
+    height: 25px;
+    width: 120px;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.contact{
+    background-color: rgb(8, 48, 52);
+    height: 25px;
+    width: 120px;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+/* .next{
+    width: 100%;
+    height: 55vh;
+    position:relative;
+    bottom: 50px;
+    background-color: blueviolet 
+    
+
+}*/
+.devpic{
+    display: inline;
+}
+#ins{
+    height: 30px;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    cursor: pointer;
+}
+#link{
+    height: 30px;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+    cursor: pointer;
+}
+#mail{
+    height: 30px;
+    position: relative;
+    left: 110px;
+   bottom: 20px;
+   cursor: pointer;
+}
+li{
+    cursor: pointer;
+}
+/* .devpic{
+    filter: drop-shadow(5px 5px 10px #555);
+} */
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+    display: flex;
+
+}
+.dev-pic img{
+    width: 375px;
+}
